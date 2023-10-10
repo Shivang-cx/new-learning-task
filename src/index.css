@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/*custom-fonts start*/
+@font-face {
+  font-family: 'Arial Rounded MT';
+  src: url('./fonts/ArialRoundedMTBold.eot');
+  src: url('./fonts/ArialRoundedMTBold.eot?#iefix') format('embedded-opentype'),
+      url('./fonts/ArialRoundedMTBold.woff2') format('woff2'),
+      url('./fonts/ArialRoundedMTBold.woff') format('woff'),
+      url('./fonts/ArialRoundedMTBold.ttf') format('truetype'),
+      url('./fonts/ArialRoundedMTBold.svg#ArialRoundedMTBold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+/*custom-fonts start*/
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/*Header css*/
+.nav-menu-link{
+  font-family: 'Arial Rounded MT';
+}
