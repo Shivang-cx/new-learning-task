@@ -8,20 +8,20 @@ function Header() {
         </div>
         <div className="menu-wrapper flex">
             <ul className="nav-menu flex">
+                    <a href="" className="nav-menu-link mr-4 text-red-900">Home</a>
                 <li className="nav-menu-item">
-                    <a href="" className="nav-menu-link mr-4">Home</a>
                 </li>
                 <li className="nav-menu-item">
-                    <a href="" className="nav-menu-link mr-4">Artwork</a>
+                    <a href="" className="nav-menu-link mr-4 text-red-900">Artwork</a>
                 </li>
                 <li className="nav-menu-item">
-                    <a href="" className="nav-menu-link mr-4">Roadmap</a>
+                    <a href="" className="nav-menu-link mr-4 text-red-900">Roadmap</a>
                 </li>
                 <li className="nav-menu-item">
-                    <a href="" className="nav-menu-link mr-4">FAQ</a>
+                    <a href="" className="nav-menu-link mr-4 text-red-900">FAQ</a>
                 </li>
                 <li className="nav-menu-item">
-                    <a href="" className="nav-menu-link mr-4">Team</a>
+                    <a href="" className="nav-menu-link mr-4 text-red-900">Team</a>
                 </li>
             </ul>
         </div>
