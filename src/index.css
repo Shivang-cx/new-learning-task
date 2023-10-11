@@ -28,6 +28,6 @@ code {
 }
 
 /*Header css*/
-.nav-menu-link{
+.nav-menu-link , h1{
   font-family: 'Arial Rounded MT';
 }
